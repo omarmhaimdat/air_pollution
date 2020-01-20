@@ -1,0 +1,299 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/omarmhaimdat/PycharmProjects/air_pollution
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 165
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1553
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 9368
+    content: p
+  - delay: 191
+    content: 'y'
+  - delay: 120
+    content: t
+  - delay: 104
+    content: h
+  - delay: 152
+    content: o
+  - delay: 137
+    content: 'n'
+  - delay: 807
+    content: ' '
+  - delay: 185
+    content: "\a"
+  - delay: 728
+    content: a
+  - delay: 159
+    content: p
+  - delay: 338
+    content: p
+  - delay: 159
+    content: '.py '
+  - delay: 695
+    content: "\r\n"
+  - delay: 139
+    content: "  File \"app.py\", line 11\r\n    def get(self, date: str):\r\n                      ^\r\nSyntaxError: invalid syntax\r\nmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 3372
+    content: 'python app.py '
+  - delay: 8247
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 84
+    content: "\b\e[K"
+  - delay: 82
+    content: "\b\e[K"
+  - delay: 85
+    content: "\b\e[K"
+  - delay: 83
+    content: "\b\e[K"
+  - delay: 326
+    content: "\b\e[K"
+  - delay: 550
+    content: r
+  - delay: 104
+    content: u
+  - delay: 104
+    content: 'n'
+  - delay: 160
+    content: ' '
+  - delay: 224
+    content: a
+  - delay: 96
+    content: p
+  - delay: 147
+    content: p
+  - delay: 119
+    content: '.py '
+  - delay: 350
+    content: "\r\n"
+  - delay: 43
+    content: "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'run': [Errno 2] No such file or directory\r\nmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 4365
+    content: 'python run app.py '
+  - delay: 592
+    content: "\b"
+  - delay: 499
+    content: "\b"
+  - delay: 83
+    content: "\b"
+  - delay: 85
+    content: "\b"
+  - delay: 84
+    content: "\b"
+  - delay: 258
+    content: "\b"
+  - delay: 215
+    content: "\b"
+  - delay: 319
+    content: "\b\e[1P"
+  - delay: 180
+    content: "\b\e[1P"
+  - delay: 260
+    content: "\b\e[1P"
+  - delay: 259
+    content: "\b\e[1P"
+  - delay: 525
+    content: "\r\n"
+  - delay: 46
+    content: "  File \"app.py\", line 11\r\n    def get(self, date: str):\r\n                      ^\r\nSyntaxError: invalid syntax\r\nmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 12642
+    content: 'python app.py '
+  - delay: 479
+    content: "\r\n"
+  - delay: 129
+    content: "  File \"app.py\", line 11\r\n    def get(self, date: str):\r\n                      ^\r\nSyntaxError: invalid syntax\r\nmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 54657
+    content: 'python app.py '
+  - delay: 221
+    content: "\r\n"
+  - delay: 98
+    content: "  File \"app.py\", line 11\r\n    def get(self, date: str):\r\n                      ^\r\nSyntaxError: invalid syntax\r\n"
+  - delay: 6
+    content: 'mhaimdats-mbp:air_pollution omarmhaimdat$ '
+  - delay: 29909
+    content: p
+  - delay: 281
+    content: 'y'
+  - delay: 118
+    content: t
+  - delay: 104
+    content: h
+  - delay: 152
+    content: o
+  - delay: 121
+    content: 'n'
+  - delay: 206
+    content: "\a"
+  - delay: 474
+    content: "\r\n"
+  - delay: 78
+    content: "Python 2.7.16 (default, Apr 12 2019, 15:32:40) \r\n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.3)] on darwin\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n"
+  - delay: 674
+    content: '>>> '
+  - delay: 1391
+    content: r
+  - delay: 217
+    content: u
+  - delay: 71
+    content: 'n'
+  - delay: 111
+    content: ' '
+  - delay: 607
+    content: "\b\e[K"
+  - delay: 292
+    content: "\b\e[K"
+  - delay: 134
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 246
+    content: a
+  - delay: 127
+    content: p
+  - delay: 162
+    content: p
+  - delay: 94
+    content: ' '
+  - delay: 520
+    content: "\b\e[K"
+  - delay: 328
+    content: .
+  - delay: 488
+    content: 'y'
+  - delay: 336
+    content: "\b\e[K"
+  - delay: 208
+    content: p
+  - delay: 248
+    content: 'y'
+  - delay: 264
+    content: "\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\n"
+  - delay: 13
+    content: "NameError: name 'app' is not defined\r\n>>> "
+  - delay: 2220
+    content: e
+  - delay: 231
+    content: x
+  - delay: 192
+    content: i
+  - delay: 168
+    content: t
+  - delay: 184
+    content: "\r\nUse exit() or Ctrl-D (i.e. EOF) to exit\r\n>>> "
+  - delay: 2930
+    content: "\r\nmhaimdats-mbp:air_pollution omarmhaimdat$ "
+  - delay: 2458
+    content: ª
+  - delay: 1056
+    content: "\b\e[K"
+  - delay: 738
+    content: "logout\r\n"
